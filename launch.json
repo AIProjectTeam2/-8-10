@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "LineBot-1",
+      "region": "asia-east1",
+      "gen": "GEN_1",
+      "revision": "33",
+      "entryPoint": "linebot",
+      "runtime": "python312",
+      "testInput": ""
+    }
+  ]
+}
